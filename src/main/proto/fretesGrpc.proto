@@ -20,6 +20,11 @@ message FretesGrpcRequest {
   string name = 1;
 }
 
+message ErroDetails {
+  int32 code = 1;
+  string erro = 2;
+}
+
 message CalculaFreteResponse {
   string cep = 1;
   double valor = 2;
